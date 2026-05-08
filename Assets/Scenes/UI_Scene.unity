@@ -150,6 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   logo: {fileID: 150251475}
   buttons: {fileID: 112002656}
+  buttonAny: {fileID: 151995322}
 --- !u!4 &8731708
 Transform:
   m_ObjectHideFlags: 0
@@ -541,9 +542,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 151995322}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
+        m_MethodName: 
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
